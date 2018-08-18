@@ -16,7 +16,8 @@ puts ("The name of the charecter "+ charecter_name)
 puts ("His age is "+ charecter_age)
 
 #Data Types
-Name = "Debo" #String
+Name = "Debo" #String and constant
+name = 'Pawan' #not an constant
 Age = 30 #Integer
 GPA = 9.04 #Float
 is_male = true #bolean
