@@ -10,3 +10,4 @@ puts("Enter Second Number")
 num2 = gets.strip().to_i
 puts("Sum of Entered Nuber")
 puts(num1+ num2)
+

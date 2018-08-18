@@ -41,3 +41,23 @@ elsif !is_male and is_tall
 else
 	puts("You are neither Male or Tall")
 end
+
+
+#Case Statement
+
+def get_week(day)
+	days_name = ""
+	
+	case day
+	when "Mon"
+		days_name = "Monday"
+	when "Tue"
+		days_name == "Tuesday"
+	when "Wed"
+		days_name == "Wednesday"
+	end
+	return days_name
+end
+
+
+puts(get_week("Mon"))
