@@ -30,10 +30,61 @@ print(Parent_list)
 puts()
 print(Parent_list.index(nil))
 puts()
-Parent_list.pop()#removing the last Index
+#removing the last Index
+Parent_list.pop()
 print(Parent_list)
 puts()
-Parent_list.shift()#removing the first Index
+#removing the first Index from right
+Parent_list.shift()
 print(Parent_list)
 puts()
-print(Student_List.push(*Parent_list)) #Extending an Array
+#enter values from right side of array
+Parent_list.unshift("Joey","Cristofer")
+print(Parent_list)
+puts()
+#Extending an Array
+print(Student_List.push(*Parent_list)) 
+puts()
+#Removing N number of Item from a Array
+removed_list = Student_List.pop(3)
+print(removed_list)
+puts()
+print(Student_List)
+puts()
+
+#Generate array for N Number in range
+number_list = Array(0..10)
+print (number_list)
+puts()
+
+#Sorting an Array without changing the primary object
+number_list = [1,5,6,2,4,0,3,99]
+print(number_list.sort)
+puts()
+print(number_list)
+puts()
+
+#Sort an array changing the target Array
+new_number_list = [1,5,6,2,4,0,3,99]
+print(new_number_list.sort!)
+puts()
+print(new_number_list)
+puts()
+
+
+#Spaceship Operator & reverse sort
+number_list = [1,5,6,2,4,0,3,99]
+number_list.sort!{|a,b| b<=>a}
+print(number_list)
+puts()
+
+
+#Split and Join in Array of RUBY
+
+string = "Hello This String need to be Splited"
+print(string.split(" "))
+puts()
+print(string.split(" ").join("-"))
+puts()
+
+
