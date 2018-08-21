@@ -4,7 +4,18 @@ States = {"WestBengal"=>"WB",
 		  "Karnataka"=>"KA",
 	      "Punjab"=>'PB'}
 
+
 print(States)
+puts()
+
+india = {
+		South:["Chennai","Karnatka","Kerala"],
+		North:["Delhi","Kashmir","Punjab"],
+		East: ["WestBengal","Assam","Mizoram"],
+		West:["Mumbai","Gujrat"]
+		}
+
+print(india)
 
 #Acccess Values by keys
 puts()
@@ -30,3 +41,20 @@ print(States.fetch("WestBengal"))
 puts()
 #Handling Fetch Fails
 print(States.fetch("Jammu","No Key"))
+puts()
+
+#Looping through Hash
+india.each  {|x,y| puts("#{x}:#{y}")}
+puts()
+
+
+#Finding Frequency of a String 
+
+word = "hippopotomonstrosesquippedaliophobia"
+frequency = Hash.new(0)
+
+for letters in word.split("")
+	frequency[letters] = frequency[letters]+1
+end
+print(frequency)
+

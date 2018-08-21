@@ -88,3 +88,13 @@ print(string.split(" ").join("-"))
 puts()
 
 
+#Looping through Mmultidimentional-Array
+
+number_list = [[1,2,3],[4,5,6],[7,8,9]]
+number_list.each  {|x| x.each {|y| print(y)}}
+puts()
+
+
+#Looping through index and values of Array
+Student_List.each_with_index {|value,index| puts("#{index}:#{value}")}
+

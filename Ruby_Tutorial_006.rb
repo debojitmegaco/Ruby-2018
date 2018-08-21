@@ -1,7 +1,7 @@
 #Methods in RUBY
 
 def sample_func(name, age)
-	puts("Hello World!"+ name + "You are "+ age.to_s+ " Years Old")
+	puts("Hello World! "+ name + " You are "+ age.to_s+ " Years Old")
 end
 
 sample_func('Debo',30)
@@ -47,7 +47,7 @@ end
 
 def get_week(day)
 	days_name = ""
-	
+
 	case day
 	when "Mon"
 		days_name = "Monday"

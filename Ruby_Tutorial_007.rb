@@ -29,6 +29,11 @@ for number in 0..10
 	puts(number)
 end
 
+for number in 0...10
+	puts(number)
+end
+
+
 10.times do |number|
 	puts(number)
 end
