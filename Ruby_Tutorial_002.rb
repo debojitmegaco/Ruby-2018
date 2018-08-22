@@ -10,4 +10,5 @@ puts (Math.sqrt(49))
 
 Age = 23
 puts ("My age is " + Age.to_s)
+puts ("My age is #{Age.to_s}")
 

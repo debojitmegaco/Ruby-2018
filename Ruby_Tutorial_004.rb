@@ -73,6 +73,7 @@ puts()
 
 
 #Spaceship Operator & reverse sort
+puts("#Spaceship Operator & reverse sort")
 number_list = [1,5,6,2,4,0,3,99]
 number_list.sort!{|a,b| b<=>a}
 print(number_list)
@@ -80,6 +81,7 @@ puts()
 
 
 #Split and Join in Array of RUBY
+puts("#Split and Join in Array of RUBY")
 
 string = "Hello This String need to be Splited"
 print(string.split(" "))

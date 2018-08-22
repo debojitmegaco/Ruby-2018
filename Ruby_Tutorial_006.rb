@@ -42,6 +42,14 @@ else
 	puts("You are neither Male or Tall")
 end
 
+#Ternary Operator
+puts("Help".include? 9.to_s)
+puts (0..9).include?(10) ? "Yes" : "No"
+puts "Name".include?("a") ? "Yes" : "No"
+
+#Equalty Operator
+puts((0..9)===10)
+
 
 #Case Statement
 
