@@ -78,3 +78,46 @@ until (10..20).include?number
 	puts(number)
 	number+=1
 end
+
+
+#Conditional Statement
+is_male = true
+is_tall = true
+
+if is_male and is_tall
+	puts("You are a Tall Male")
+elsif is_male and !is_tall
+	puts("You are Male but not Tall")
+elsif !is_male and is_tall
+	puts("You are Tall but not a Male")
+else
+	puts("You are neither Male or Tall")
+end
+
+#Ternary Operator
+puts("Help".include? 9.to_s)
+puts (0..9).include?(10) ? "Yes" : "No"
+puts "Name".include?("a") ? "Yes" : "No"
+
+#Equalty Operator
+puts((0..9)===10)
+
+
+#Case Statement
+
+def get_week(day)
+	days_name = ""
+
+	case day
+	when "Mon"
+		days_name = "Monday"
+	when "Tue"
+		days_name == "Tuesday"
+	when "Wed"
+		days_name == "Wednesday"
+	end
+	return days_name
+end
+
+
+puts(get_week("Mon"))
