@@ -30,7 +30,6 @@ puts(operation(4)[1])
 
 #Passing Multuple Argument through a Function.
 
-
 def sample_func(*arguments)
 	print("number of arguments passed #{arguments.length}")
 	puts()
@@ -38,4 +37,6 @@ def sample_func(*arguments)
 	return *arguments
 end
 
-sample_func("A","B","C","D")
+return_value = sample_func("A","B","C","D")
+print(return_value)
+puts()

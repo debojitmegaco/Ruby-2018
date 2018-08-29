@@ -32,7 +32,9 @@ end
 
 
 #While Loop in Ruby & break Statement
-
+puts("-----------------------------------")
+puts("WHILE loop")
+puts("-----------------------------------")
 index = 1
 
 while index<=10
@@ -46,33 +48,51 @@ while index<=10
 end
 
 #For loop in Ruby
-
+puts("-----------------------------------")
+puts("FOR LOOP")
+puts("-----------------------------------")
 friends = ["John","Kevin","David","Brio"]
 
 for friend in friends
 	puts(friend)
 end
 
+#LOOPING by each on array
+puts("-----------------------------------")
+puts("LOOOPING by each")
+puts("-----------------------------------")
 friends.each do |friend|
 	puts(friend)
 end
 
-
+#LOOP in range where last element in range is included
+puts("-----------------------------------")
+puts("looping range like X..Y")
+puts("-----------------------------------")
 for number in 0..10
 	puts(number)
 end
-
+#LOOP in range where last element in range is excluded
+puts("-----------------------------------")
+puts("looping range like X...Y")
+puts("-----------------------------------")
 for number in 0...10
 	puts(number)
 end
 
-
+#Times Loops
+puts("-----------------------------------")
+puts("looping by times")
+puts("-----------------------------------")
 10.times do |number|
 	puts(number)
 end
 
 
 #Untill in RUBY
+puts("-----------------------------------")
+puts("loopig by untill")
+puts("-----------------------------------")
 number = 5
 until (10..20).include?number
 	puts(number)
@@ -81,6 +101,9 @@ end
 
 
 #Conditional Statement
+puts("-----------------------------------")
+puts("IF ELSIF ELSE Conditional")
+puts("-----------------------------------")
 is_male = true
 is_tall = true
 
@@ -95,15 +118,24 @@ else
 end
 
 #Ternary Operator
+puts("-----------------------------------")
+puts("Ternary Operator")
+puts("-----------------------------------")
 puts("Help".include? 9.to_s)
 puts (0..9).include?(10) ? "Yes" : "No"
 puts "Name".include?("a") ? "Yes" : "No"
 
 #Equalty Operator
+puts("---------------------------------------------------")
+puts("The O/P Euality operator is either True or False:")
+puts("---------------------------------------------------")
 puts((0..9)===10)
 
 
 #Case Statement
+puts("-----------------------------------")
+puts("Case Condition")
+puts("-----------------------------------")
 
 def get_week(day)
 	days_name = ""
