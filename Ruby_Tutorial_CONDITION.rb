@@ -10,9 +10,14 @@ end
 
 #unless in RUBY
 #unless this condition breaks/false the block inside will be executed
+puts("-----------------------------------")
+puts("UNLESS condition in RUBY")
+puts("-----------------------------------")
 (1..10).each do |x|
 	unless x > 5
-		puts(x)
+		puts("By unless #{x}")
+	else
+		puts("By else #{x}")
 	end
 end
 
