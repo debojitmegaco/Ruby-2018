@@ -158,3 +158,17 @@ end
 
 
 puts(get_week("Mon"))
+
+
+#NEXT Statement
+puts("-----------------------------------")
+puts("NEXT Condition")
+puts("-----------------------------------")
+
+(0..5).each do |x|
+	if x>2
+		next
+	end
+
+	puts("I only hit at #{x}")
+end
