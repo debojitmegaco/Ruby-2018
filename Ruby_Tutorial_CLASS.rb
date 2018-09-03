@@ -27,7 +27,7 @@ class Student
 
 end
 
-student = Student.new("Rahim",20)
+student = Student.new("Rahim",20) #When object is created , initiator is auto called
 puts(student.get_age,student.get_name)
 
 

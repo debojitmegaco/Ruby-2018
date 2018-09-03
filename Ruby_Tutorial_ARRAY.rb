@@ -45,6 +45,11 @@ puts()
 #Extending an Array
 print(Student_List.push(*Parent_list)) 
 puts()
+fruits = ["Apple","Banana","pineapple"]
+veggies = ["Potato","Onion","Pumkin"]
+Ediable = fruits+veggies
+print(Ediable)
+puts()
 #Removing N number of Item from a Array
 removed_list = Student_List.pop(3)
 print(removed_list)
@@ -99,4 +104,8 @@ puts()
 
 #Looping through index and values of Array
 Student_List.each_with_index {|value,index| puts("#{index}:#{value}")}
+
+#Creating LIST with series of values
+list = Array.new(10,"Hello")
+print(list)
 

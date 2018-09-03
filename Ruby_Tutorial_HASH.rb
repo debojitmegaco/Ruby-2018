@@ -76,6 +76,9 @@ fruits.each do |x,y|
 end
 
 #Interchange KEY VALUE
+puts("---------------------------------------------")
+puts("Interchanging the KEY and VALUE of an HASH")
+puts("---------------------------------------------")
 puts()
 new_fruit = fruits.invert
 print(new_fruit)
