@@ -1,4 +1,5 @@
 #Array in Ruby
+#Writer Debojit Bhadra
 
 Student_List = ["John","Samuel","Christina"]
 print(Student_List)
