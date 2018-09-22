@@ -1,3 +1,6 @@
 [submodule "python_module"]
 	path = python_module
 	url = https://github.com/debojitmegaco/Terraform_AWS.git
+[submodule "python-2018"]
+	path = python-2018
+	url = https://github.com/debojitmegaco/Python-2018.git
